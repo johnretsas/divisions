@@ -1,5 +1,11 @@
 # Net Purpose coding challenge
 
+## Setup
+
+- Clone the repo
+- Run `npm install` to install dependencies
+- Run `npm test` to run the unit tests
+
 ## The task
 
 **Given a number , _n_, find the _n_ highest and lowest scores in the given array.**
