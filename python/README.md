@@ -2,9 +2,12 @@
 
 ## Setup
 
-- Clone the repo
-- Run `npm install` to install dependencies
-- Run `npm test` to run the unit tests
+- Ensure python is installed
+- Run `python -m venv venv` to set up a virtual environment
+- Run `source venv/bin/activate` to activate the virtual environment
+- Run `pip install -r requirements.txt` to install dependencies
+- Run `pytest` to run the unit tests
+- When finished, run `deactivate` to deactivate the virtual environment
 
 ## The task
 
@@ -69,8 +72,8 @@ Relegate:
 [Lowest scoring team]
 ```
 
-There are some finished unit tests in `src/index.spec.ts` to get you started.
-There is an empty function in `src/index.ts` where you can write the implementation.
+There are some finished unit tests in `test/test_main.py` to get you started.
+There is an empty function in `src/main.py` where you can write the implementation.
 
 ## Constraints
 
