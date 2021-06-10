@@ -82,3 +82,8 @@ There is an empty function in `src/index.ts` where you can write the implementat
 
 - We are interested in your implementation of the solution, not the unit test code. Please feel free to add unit tests to help with development though.
 - We are looking for clean code, which is easy to read and free of code smells.
+
+## Submitting the task
+
+When you have completed the challenge, please upload your solution to GitHub, GitLab or similar. When you have done this, please share a link with us at dev-team@netpurpose.com.
+If you have any problems, we can also accept the solution attached to an email.
