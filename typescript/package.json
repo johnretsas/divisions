@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A simple boilerplate for running TypeScript tests with Jest",
   "scripts": {
+    "dev": "ts-node src/index",
     "test": "jest",
     "test:watch": "jest --watchAll"
   },
@@ -12,9 +13,12 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "@types/jest": "^26.0.23",
+    "@types/jest": "^29.0.3",
     "jest": "^27.0.1",
     "ts-jest": "^27.0.0",
     "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
   }
 }
