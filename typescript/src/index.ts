@@ -27,12 +27,12 @@ export const getResults = (division: Division, n: number) => {
 
   // Format and return the result.
   resultString += "Promote:\n";
-  promote.map(p => resultString = resultString + p.name + "\n");
+  promote.map(p => resultString += p.name + "\n");
 
   resultString += "\n";
 
   resultString += "Relegate:\n";
-  relegate.map(r => resultString = resultString + r.name + "\n");
+  relegate.map(r => resultString += r.name + "\n");
 
   return resultString.slice(0, resultString.length - 1);
 };

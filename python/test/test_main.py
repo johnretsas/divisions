@@ -1,4 +1,4 @@
-from ..src.main import get_results
+from src.main import get_results
 
 given_division = [
     {
@@ -25,12 +25,12 @@ given_division = [
 
 
 def test_returns_one_team_to_promote_and_one_team_to_relegate():
-    result_string = "Promote:" "Cardinals" "" "Relegate:" "Renegades"
+    result_string = "Promote:\n" "Cardinals\n" "\n" "Relegate:\n" "Renegades\n"
     assert get_results(given_division, 1) == result_string
 
 
 def test_returns_two_teams_to_promote_and_two_teams_to_relegate():
     result_string = (
-        "Promote:" "Cardinals" "Rockets" "" "Relegate:" "Bruisers" "Renegades"
+        "Promote:\n" "Cardinals\n" "Rockets\n" "\n" "Relegate:\n" "Bruisers\n" "Renegades\n"
     )
     assert get_results(given_division, 2) == result_string
